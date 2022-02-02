@@ -62,7 +62,7 @@ export default function Home() {
             <ol>
               {redditData.map((item) => (
                 <li key={item.id}>
-                  <a target="_blank" href={item.url}>
+                  <a target="_blank" rel="noreferrer" href={item.url}>
                     {item.title}
                   </a>
                 </li>
